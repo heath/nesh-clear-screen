@@ -1,6 +1,6 @@
 nesh-clear-screen
 ==========
-A plugin to clear the screen while [Nesh](http://danielgtaylor.github.io/nesh/), 
+A plugin to clear the screen within [Nesh](http://danielgtaylor.github.io/nesh/)
 
 Installation
 ------------
@@ -19,7 +19,10 @@ nesh --disable nesh-clear-screen
 Usage
 -----
 Once installed and enabled, you can clear the screen using the key combination:
-    `ctl-l`
+
+```bash
+ctl-l
+```
 
 License
 -------
