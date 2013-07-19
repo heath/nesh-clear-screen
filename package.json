@@ -1,0 +1,27 @@
+{
+  name: "nesh-clear-screen",
+  version: "0.0.1",
+  description: "Clear the screen using ctl-l",
+  main: "clear.js",
+  repository: {
+    type: "git",
+    url: "https://github.com/heath/nesh-clear-screen"
+  },
+  bugs: {
+    url: "https://github.com/heath/nesh-clear-screen/issues"
+  },
+  keywords: [
+    "nesh",
+    "plugin",
+    "clear",
+    "screen"
+  ],
+  author: {
+    name: "Heath Matlock",
+    email: "heathmatlock@gmail.com",
+  },
+  license: "MIT",
+  engines: {
+    node: ">=0.8"
+  }
+}
