@@ -1,27 +1,31 @@
 {
-  name: "nesh-clear-screen",
-  version: "0.0.1",
-  description: "Clear the screen using ctl-l",
-  main: "clear.js",
-  repository: {
-    type: "git",
-    url: "https://github.com/heath/nesh-clear-screen"
+  "name": "nesh-clear-screen",
+  "version": "0.0.1",
+  "description": "Clear the screen using ctl-l",
+  "main": "clear.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heath/nesh-clear-screen"
   },
-  bugs: {
-    url: "https://github.com/heath/nesh-clear-screen/issues"
+  "bugs": {
+    "url": "https://github.com/heath/nesh-clear-screen/issues"
   },
-  keywords: [
+  "keywords": [
     "nesh",
     "plugin",
     "clear",
     "screen"
   ],
-  author: {
-    name: "Heath Matlock",
-    email: "heathmatlock@gmail.com",
+  "author": {
+    "name": "Heath Matlock",
+    "email": "heathmatlock@gmail.com"
   },
-  license: "MIT",
-  engines: {
-    node: ">=0.8"
-  }
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "postinstall": "./node_modules/coffee-script/bin/cake build"
 }
