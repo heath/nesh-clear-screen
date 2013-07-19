@@ -27,5 +27,7 @@
   "devDependencies": {
     "coffee-script": "~1.6.3"
   },
-  "prepublish": "./node_modules/coffee-script/bin/cake build"
+  "scripts": {
+    "prepublish": "./node_modules/coffee-script/bin/cake build"
+  }
 }
